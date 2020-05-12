@@ -211,6 +211,17 @@ a {
   padding: 5px;
 }
 
+.menu-aside > a {
+  font-size: 20px;
+}
+
+.menu-aside > a:hover {
+  box-shadow: 1px 1px 2px 1px #000 inset;
+  padding: 5px 20px;
+  text-decoration: underline;
+  background-color: #D3D3D3;
+}
+
 li > a:hover {
   box-shadow: 1px 1px 2px 1px #000 inset;
   padding: 5px 20px;
@@ -233,7 +244,7 @@ footer {
 }
 
 .footer {
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid darkgrey;
 }
 
 .footer::after {
@@ -245,13 +256,24 @@ footer {
 .footer-info {
   float: left;
   width: calc(70%/3);
+  text-align: center;
+}
+
+.footer-list > li a {
+  color: darkgrey;
+  box-shadow: none;
 }
 
 .copyright {
   padding: 30px;
 }
 
+.copyright:last-child {
+  padding-top: 0;
+}
+
 .footer-info:last-child {
   float: left;
   width: 30%;
+  padding-top: 10px;
 }
