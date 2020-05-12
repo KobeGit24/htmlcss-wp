@@ -231,3 +231,27 @@ button {
 footer {
   background-color: #fff;
 }
+
+.footer {
+  border-bottom: 1px solid grey;
+}
+
+.footer::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-info {
+  float: left;
+  width: calc(70%/3);
+}
+
+.copyright {
+  padding: 30px;
+}
+
+.footer-info:last-child {
+  float: left;
+  width: 30%;
+}
