@@ -259,6 +259,12 @@ footer {
   text-align: center;
 }
 
+.footer-info:last-child {
+  float: left;
+  width: 30%;
+  padding-top: 10px;
+}
+
 .footer-list > li a {
   color: darkgrey;
   box-shadow: none;
@@ -266,14 +272,18 @@ footer {
 
 .copyright {
   padding: 30px;
+  position: relative;
 }
 
 .copyright:last-child {
   padding-top: 0;
 }
 
-.footer-info:last-child {
-  float: left;
-  width: 30%;
-  padding-top: 10px;
+.icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 30px;
+  font-size: 30px;
+  color: darkgrey;
 }
